@@ -1,0 +1,36 @@
+@import "./base.css";
+
+#app {
+    max-width: 1280px;
+    font-weight: normal;
+}
+
+a,
+.green {
+    text-decoration: none;
+    color: hsla(160, 100%, 37%, 1);
+    transition: 0.4s;
+}
+
+@media (hover: hover) {
+    a:hover {
+        background-color: hsla(160, 100%, 37%, 0.2);
+    }
+}
+
+@media screen and (min-width: 800px) {
+    #app {
+        max-width: 1300px;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    #app {
+        max-width: 2560px;
+        max-height: 1080px;
+        display: flex;
+        margin: 0;
+    }
+}
