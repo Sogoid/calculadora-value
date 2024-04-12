@@ -33,11 +33,9 @@ import { RouterView } from "vue-router";
 .footer {
   margin-top: 4rem;
   background-image: var(--bg-footer);
-  background-repeat: repeat;
-  background-size: 50%;
-  height: 10rem;
+  background-repeat: repeat-y;
   padding: 2rem;
-  height: 100vh;
+
 }
 
 @media screen and (min-width: 700px) {
@@ -47,6 +45,9 @@ import { RouterView } from "vue-router";
 
   .footer {
     min-width: 100vw;
+    background-repeat: repeat;
+    background-size: 50%;
+    padding-bottom: 2rem;
   }
 }
 
