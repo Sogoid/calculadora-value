@@ -15,7 +15,6 @@ import { RouterView } from "vue-router";
   </footer>
 
 </template>
-
 <style scoped>
 .header {
   display: flex;

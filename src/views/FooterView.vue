@@ -22,44 +22,44 @@ interface Img {
 
 const items = ref<Item[]>([
     {
-        lightImage: "/public/img/SP-footer.png",
-        darkImage: "/public/img/SP-footer-white.png",
+        lightImage: "/calculadora-value/public/img/SP-footer.png",
+        darkImage: "/calculadora-value/public/img/SP-footer-white.png",
         alt: "Imagem São Paulo",
 
-        darkIconWhatsApp: "/public/img/WhatsApp-branco.svg",
-        lightIconWhatsApp: "/public/img/WhatsApp-black.svg",
+        darkIconWhatsApp: "/calculadora-value/public/img/WhatsApp-branco.svg",
+        lightIconWhatsApp: "/calculadora-value/public/img/WhatsApp-black.svg",
         altWhatsApp: "Icon WhatsApp",
 
-        darkIconPhone: "/public/img/telephone-branco.svg",
-        lightIconPhone: "/public/img/telephone-black.svg",
+        darkIconPhone: "/calculadora-value/public/img/telephone-branco.svg",
+        lightIconPhone: "/calculadora-value/public/img/telephone-black.svg",
         altPhone: "Icon Telefone",
 
         fone: "(11) 96075-8034",
         text: "São Paulo - SP",
     },
     {
-        lightImage: "/public/img/Goiania-footer.png",
-        darkImage: "/public/img/Goiania-footer-white.png",
+        lightImage: "/calculadora-value/public/img/Goiania-footer.png",
+        darkImage: "/calculadora-value/public/img/Goiania-footer-white.png",
         alt: "Imagem Goiânia",
 
-        darkIconWhatsApp: "/public/img/WhatsApp-branco.svg",
-        lightIconWhatsApp: "/public/img/WhatsApp-black.svg",
+        darkIconWhatsApp: "/calculadora-value/public/img/WhatsApp-branco.svg",
+        lightIconWhatsApp: "/calculadora-value/public/img/WhatsApp-black.svg",
         altWhatsApp: "Icon WhatsApp",
 
-        darkIconPhone: "/public/img/telephone-branco.svg",
-        lightIconPhone: "/public/img/telephone-black.svg",
+        darkIconPhone: "/calculadora-value/public/img/telephone-branco.svg",
+        lightIconPhone: "/calculadora-value/public/img/telephone-black.svg",
         altPhone: "Icon Telefone",
 
         fone: "(62) 3100-1200",
         text: "Goiânia-GO"
     },
     {
-        lightImage: "/public/img/Atlanta-footer.png",
-        darkImage: "/public/img/Atlanta-footer-white.png",
+        lightImage: "/calculadora-value/public/img/Atlanta-footer.png",
+        darkImage: "/calculadora-value/public/img/Atlanta-footer-white.png",
         alt: "Imagem Doraville - Geórgia(EUA)",
 
-        darkIconPhone: "/public/img/telephone-branco.svg",
-        lightIconPhone: "/public/img/telephone-black.svg",
+        darkIconPhone: "/calculadora-value/public/img/telephone-branco.svg",
+        lightIconPhone: "/calculadora-value/public/img/telephone-black.svg",
         altPhone: "Icon Telefone",
 
         fone: "+1 (404) 528-3789",
@@ -70,8 +70,8 @@ const items = ref<Item[]>([
 
 const images = ref<Img>(
     {
-        darkImageLogo: "/public/img/value-branco.png",
-        lightImageLogo: "/public/img/value-preto.png"
+        darkImageLogo: "/calculadora-value/public/img/value-branco.png",
+        lightImageLogo: "/calculadora-value/public/img/value-preto.png"
     }
 );
 
@@ -116,12 +116,6 @@ onUnmounted(() => {
 </template>
 
 <style scoped>
-/* .container__footer {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-} */
-
 .content {
     display: flex;
     justify-content: center;
